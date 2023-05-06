@@ -1,33 +1,45 @@
 import React from 'react'
 import Link from "next/link"
 import Image from "next/image"
+import myStyles from '../styles/projectCard.module.css'
 function ProjectCard(props) {
-    console.log(props)
-    return (
-        <div key={props.key} >
-            <div className="relative w-full h-full content-center items-center justify-center md:h-screen">
-                <div className="absolute inset-0">
-                    {/* <Image
-                        src={props.url}
-                        alt="background image"
-                        fill
-                        className='hover:bg-gray-500'
-                    /> */}
-                </div>
-                <div className="relative z-10 flex flex-col items-center justify-center h-full ">
-                    <Link href={props.src} className="bg-cover bg-center h-80 flex flex-col justify-center items-center">
-                        {/* <div className="text-center">
-                            <h1 className="text-4xl font-bold mb-2">{props.name}</h1>
-                            <p className="text-lg mb-4">{props.description}</p>
-                            <a href={`${props.github}`} className=" py-2 px-4 rounded-full font-bold hover:bg-gray-200">
-                                View Github
-                            </a>
-                        </div> */}
-                    </Link>
-                </div>
+  {/* <a href={path} target="_blank" rel="noreferrer">
+      <div key={key} className='project_card' style={{backgroundImage: `url(${src})`}}>
+        <div className='project_cardDiv'>
+          <div className='cards_div'>
+            <h3> {name} </h3>
+            <div className='card_about'>
+              <p> {about} </p>
+              <div> 
+                <a href={github} target="_blank" rel="noreferrer"> 
+                  <p> View Github </p> 
+                  <p> <BsArrowRightShort size={"1.7em"} className="right_icon" /> </p>  
+                </a>  
+              </div>
             </div>
+          </div>
+        </div> 
+      </div>
+    </a> */}
+  return (
+    <div key={props.key} className={`project_card ${props.img}`} >
+      <div className="project_cardDiv p-10">
+        <Link href={props.src} target="_blank" >
+          <div className={`cards_div`}>
+            <h3 className="">{props.name}</h3>
+            <div className={`card_about}`}>
+              <p className="">{props.description}</p>
+            </div>
+          </div>
+        </Link>
+        <div>
+          <Link href={props.github} target="_blank" >
+            <p className="m-12 px-10 py-5 bg-blue-50 inline-block ">View Github</p>
+          </Link>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default ProjectCard

@@ -32,7 +32,7 @@ function Header() {
                             </Link>
                         </li>
                         <li className='mr-6'>
-                            <Link href='/#blog'
+                            <Link href='https://happys1ngh.hashnode.dev/' target='_blank'
                                 className='text-gray-300 hover:text-white font-medium text-sm'>
                                 Blogs
                             </Link>
