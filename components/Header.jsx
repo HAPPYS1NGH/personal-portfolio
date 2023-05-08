@@ -7,6 +7,7 @@ function Header() {
     return (
         <>
             <div className=' bg-slate-800 py-4'>
+
                 <div className='container mx-auto px-4 flex justify-between items-center'>
                     <div>
                         <Link href='/#hero'

@@ -6,11 +6,6 @@ function Contact() {
     return (
 
         <div id='contact'>
-            <Head>
-                <div>
-                    <script src="https://kit.fontawesome.com/6709f7150a.js" crossOrigin="anonymous" defer></script>
-                </div>
-            </Head>
             <div className=' pt-36 pb-10  px-40 bg-slate-800 text-white'>
                 <div className='flex justify-center items-center text-center'>
                     <div className='text-3xl font-bold m-10'>

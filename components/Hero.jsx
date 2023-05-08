@@ -11,7 +11,7 @@ function Hero() {
           <p className="text-lg text-gray-700 mt-4">I am a Full Stack web3 developer with expertise in React, NextJS, and Solidity for smart contracts. I specialize in integrating smart contracts to frontend using EthersJs and wagmi.</p>
         </div>
         <div className="hidden sm:block ml-10">
-          <Image className="transition ease-in-out hover:scale-105 duration-200" src="/../public/images/rocket.png" height={500} width={500} alt="Hero Image" />
+          <Image priority={false} className="transition ease-in-out hover:scale-105 duration-200" src="/../public/images/rocket.png" height={500} width={500} alt="Hero Image" />
         </div>
       </div>
       <Link href="/#projects" className="ml-6 px-5 py-3 rounded-xl  text-white font-bold bg-red-500 hover:bg-red-600">See Projects</Link>
