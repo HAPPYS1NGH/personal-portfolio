@@ -57,6 +57,9 @@
      animation-duration: 0.5s;
      animation-timing-function: ease;
  } 
+ .project_card:hover .link-github{
+    opacity: 1;
+ }
  
  .cards_div {
      display: flex;
@@ -86,37 +89,28 @@
  }
  .c-1{
 background: url("../public/images/vesting.jpg")   no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
  }
  .c-2{
     background:  url("../public/images/insurance-policy.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
      }
  
 .c-3{
     background: url("../public/images/tenzies.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 .c-4{
     background:url("../public/images/domain.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
          
  
  .right_icon {
      margin-top: 5px;
+ }
+ .link-github{
+    opacity: 0;
  }
  
  .card_about > div > a{

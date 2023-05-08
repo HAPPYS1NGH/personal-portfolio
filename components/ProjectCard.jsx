@@ -27,14 +27,14 @@ function ProjectCard(props) {
         <Link href={props.src} target="_blank" >
           <div className={`cards_div`}>
             <h3 className="">{props.name}</h3>
-            <div className={`card_about}`}>
+            <div className={`card_about`}>
               <p className="">{props.description}</p>
             </div>
           </div>
         </Link>
         <div>
-          <Link href={props.github} target="_blank" >
-            <p className="m-12 px-10 py-5 bg-blue-50 inline-block ">View Github</p>
+          <Link href={props.github} target="_blank" className='link-github'>
+            <p className="m-12 px-10 rounded-lg py-5 bg-blue-50 inline-block ">View Github</p>
           </Link>
         </div>
       </div>
@@ -43,3 +43,4 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard
+

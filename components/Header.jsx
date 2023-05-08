@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 function Header() {
     return (
         <>
-            <div className='bg-gray-800 py-4'>
+            <div className=' bg-slate-800 py-4'>
                 <div className='container mx-auto px-4 flex justify-between items-center'>
                     <div>
                         <Link href='/#hero'
@@ -38,10 +39,10 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href='/#contact'
-                                className='bg-white text-gray-800 px-4 py-2 rounded-full hover:bg-gray-200 font-medium text-sm'>
-                                Contact
-                            </Link>
+                            <div
+                                className=''>
+                                <ConnectButton chainStatus="icon" />
+                            </div>
                         </li>
                     </ul>
                 </div>
