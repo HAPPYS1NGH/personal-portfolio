@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import "../styles/project.css";
 import "../styles/project-card.css";
 import "@rainbow-me/rainbowkit/styles.css";
-
+import Home from "./index";
 import {
   getDefaultWallets,
   RainbowKitProvider,
@@ -25,7 +25,7 @@ const { chains, provider } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "My RainbowKit App",
+  appName: "Personal Portfolio",
   chains,
 });
 
@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }) {
         })}
         chains={chains}
       >
-        <Component {...pageProps} />
+        <Home />
       </RainbowKitProvider>
     </WagmiConfig>
   );
