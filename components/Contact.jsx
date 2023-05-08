@@ -13,7 +13,11 @@ function Contact() {
             </Head>
             <div className=' pt-36 pb-10  px-40 bg-slate-800 text-white'>
                 <div className='flex justify-center items-center text-center'>
-                    <div className='text-3xl font-bold m-10'><Link href="mailto:harpreetsinghxp@gmail.com" >Harpreet Singh</Link></div>
+                    <div className='text-3xl font-bold m-10'>
+                        <Link href="mailto:harpreetsinghxp@gmail.com">
+                            <p className=''>Harpreet Singh</p>
+                        </Link>
+                    </div>
                     <div className='ml-auto space-x-5'>
                         <Link href="https://www.linkedin.com/in/happys1ngh/" ><i className="fa-brands fa-linkedin text-3xl transition hover:-translate-y-1 duration-100 hover:scale-110  ease-out p-4"></i></Link>
                         <Link href="https://twitter.com/happys1ngh" ><i className="fa-brands fa-twitter text-3xl transition hover:-translate-y-1 duration-100 hover:scale-110  ease-out p-4 "></i></Link>

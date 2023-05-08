@@ -10,31 +10,31 @@ function Header() {
                 <div className='container mx-auto px-4 flex justify-between items-center'>
                     <div>
                         <Link href='/#hero'
-                            className='text-white font-bold text-lg'>Harpreet Singh
+                            className='text-white font-bold text-xl'>Harpreet Singh
                         </Link>
                     </div>
                     <ul className='flex items-center'>
                         <li className='mr-6'>
                             <Link href='/#about'
-                                className='text-gray-300 hover:text-white font-medium text-sm'>
+                                className='text-gray-300 hover:text-white font-medium text-md'>
                                 About
                             </Link>
                         </li>
                         <li className='mr-6'>
                             <Link href='/#projects'
-                                className='text-gray-300 hover:text-white font-medium text-sm'>
+                                className='text-gray-300 hover:text-white font-medium text-md'>
                                 Projects
                             </Link>
                         </li>
                         <li className='mr-6'>
                             <Link href='/#community'
-                                className='text-gray-300 hover:text-white font-medium text-sm'>
+                                className='text-gray-300 hover:text-white font-medium text-md'>
                                 Community
                             </Link>
                         </li>
                         <li className='mr-6'>
                             <Link href='https://happys1ngh.hashnode.dev/' target='_blank'
-                                className='text-gray-300 hover:text-white font-medium text-sm'>
+                                className='text-gray-300 hover:text-white font-medium text-md'>
                                 Blogs
                             </Link>
                         </li>

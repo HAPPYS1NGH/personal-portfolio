@@ -13,7 +13,9 @@ function Community() {
                     <CommunityCard k="20" name="Alias" image="/../public/images/alias.png" url="https://asetalias.in/" />
                 </div>
                 <div className="hidden md:block ml-10">
-                    <Image src="/../public/images/communit.jpg" width={900} height={900} alt='Community Image' />
+                    <Image src="/../public/images/communit.jpg" className='transition ease-in-out hover:-translate-y-10 duration-200 hover:translate-x-10'
+                        width={900} height={900}
+                        alt='Community Image' />
                 </div>
             </div>
         </div>
