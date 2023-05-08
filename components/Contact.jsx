@@ -8,7 +8,7 @@ function Contact() {
         <div id='contact'>
             <Head>
                 <div>
-                    <script src="https://kit.fontawesome.com/6709f7150a.js" crossorigin="anonymous" defer></script>
+                    <script src="https://kit.fontawesome.com/6709f7150a.js" crossOrigin="anonymous" defer></script>
                 </div>
             </Head>
             <div className=' pt-36 pb-10  px-40 bg-slate-800 text-white'>
