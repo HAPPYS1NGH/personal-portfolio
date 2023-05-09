@@ -6,7 +6,7 @@ function About() {
             <div className="flex-shrink-0">
                 <Image
                     className='transition ease-in-out hover:scale-105 duration-200'
-                    src="/../public/images/About.jpg"
+                    src="/images/About.jpg"
                     height={500}
                     width={500}
                     alt="About Image"
