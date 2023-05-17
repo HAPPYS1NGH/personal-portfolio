@@ -11,7 +11,7 @@ import BuyMeACoffee from "@/components/BuyMeACoffee";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="flex flex-col justify-center max mx-30 ">
         <Head>
           <title>Harpreet Singh</title>
         </Head>

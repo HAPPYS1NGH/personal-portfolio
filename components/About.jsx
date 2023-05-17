@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 function About() {
     return (
-        <div className="mx-10 my-20 p-10 flex items-center" id="about">
+        <div className="mx-10 my-20 p-10 flex items-center " id="about">
             <div className="flex-shrink-0">
                 <Image
                     className='transition ease-in-out hover:scale-105 duration-200'
