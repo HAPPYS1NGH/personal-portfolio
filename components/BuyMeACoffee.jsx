@@ -15,9 +15,9 @@ function BuyMeACoffee() {
         },
     })
     return (
-        <div className='text-center flex flex-col justify-center mx-32 p-10 bg-slate-300'>
-            <h1 className='text-2xl mb-20 sm:text-4xl md:text-5xl lg:text-6xl font-bold lg:mb-6'>Lets Connect</h1>
-            <div className='m-auto p-5'>
+        <div className='text-center flex flex-col justify-center lg:mx-32 lg:p-10 mx-10 p-1  bg-slate-300'>
+            <h1 className='text-2xl  sm:text-4xl md:text-5xl p-5 lg:text-6xl font-bold '>Lets Connect</h1>
+            <div className='m-auto lg:p-5 hidden lg:block'>
                 {
                     isDisconnected ?
                         <div>
@@ -31,7 +31,7 @@ function BuyMeACoffee() {
                         </div>
                         :
                         sendTransaction &&
-                        <Link className='p-3 rounded-xl bg-green-400' disabled={!sendTransaction} href="https://www.lensfrens.xyz/happysingh.lens" >
+                        <Link className='lg:p-3 rounded-xl bg-green-400' disabled={!sendTransaction} href="https://www.lensfrens.xyz/happysingh.lens" >
                             Connect on Lens
                         </Link>
 

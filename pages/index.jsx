@@ -22,7 +22,7 @@ export default function Home() {
         <Projects />
         <div className="relative">
           <Community />
-          <div className="relative top-28 z-10">
+          <div className="relative lg:top-28 top-10 z-10">
             <BuyMeACoffee />
           </div>
           <Contact />

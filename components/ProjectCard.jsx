@@ -23,7 +23,7 @@ function ProjectCard(props) {
     </a> */}
   return (
     <div key={props.key} className={`project_card ${props.img}`} >
-      <div className="project_cardDiv p-10">
+      <div className="project_cardDiv lg:p-10">
         <Link href={props.src} target="_blank" >
           <div className={`cards_div`}>
             <h3 className="">{props.name}</h3>

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import CommunityCard from './CommunityCard'
 function Community() {
     return (
-        <div id='community' className='mx-auto mb-10  pt-28 px-6 md:px-10 lg:px-20'>
-            <h1 className="text-3xl mb-20 sm:text-4xl md:text-5xl lg:text-6xl font-bold lg:mb-6">Community</h1>
-            <div className='flex justify-around '>
+        <div id='community' className='mx-auto lg:mb-10  pt-28 px-6 md:px-10 lg:px-20'>
+            <h1 className=" lg:mb-20 text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Community</h1>
+            <div className='flex lg:justify-around justify-center '>
                 <div className="">
                     <CommunityCard k="20" name="Developer Dao" image="/images/D_D.png" url="https://www.developerdao.com/" />
                     <CommunityCard k="20" name="GDSC" image="/images/gdsc.png" url="https://gdsc.community.dev/amity-university-lucknow/" />
